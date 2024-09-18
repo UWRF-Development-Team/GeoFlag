@@ -4,7 +4,7 @@ public class Geo {
     String country;
     String state;
     String province;
-    String discrict;
+    String district;
     String continent;
     String county;
 
