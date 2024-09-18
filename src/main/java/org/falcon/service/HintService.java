@@ -1,4 +1,4 @@
-package org.example.service;
+package org.falcon.service;
 
 public class HintService {
 }
