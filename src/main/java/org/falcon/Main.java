@@ -1,4 +1,4 @@
-package org.example;
+package org.falcon;
 
 public class Main {
 
