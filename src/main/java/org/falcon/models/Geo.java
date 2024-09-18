@@ -1,4 +1,4 @@
-package org.example.models;
+package org.falcon.models;
 
 public class Geo {
     String country;
