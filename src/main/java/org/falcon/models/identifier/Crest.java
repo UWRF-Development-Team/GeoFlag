@@ -1,4 +1,7 @@
 package org.falcon.models.identifier;
 
-public class Crest {
+public class Crest extends Identifier {
+    Crest() {
+
+    }
 }
