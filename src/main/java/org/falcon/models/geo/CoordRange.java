@@ -1,0 +1,9 @@
+package org.falcon.models.geo;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class CoordRange extends Geographical {
+}
