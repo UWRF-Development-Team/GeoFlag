@@ -1,0 +1,52 @@
+:root {
+    --snow: #FCF7F8;
+    --old-snow: #ECECEC;
+    --periwinkle: #C3CFF7;
+    --royal-blue: #5E56F8;
+    --mint: #BCECC8;
+    --emerald: #54CC72;
+    --coal: #3C3C3C;
+    --jet-black: #313131;
+    --light-gray: #888070;
+    --black-olive: #282828;
+    /*--black-olive: hsl(0, 0%, 20%);*/
+}
+body {
+    background-color: var(--light-gray);
+}
+nav {
+    background-color: var(--black-olive);
+}
+.nav-item h3 {
+    color: var(--old-snow);
+}
+#joke-div {
+    background-color: var(--periwinkle);
+}
+#joke-title-div {
+    background-color: var(--royal-blue);
+}
+#leaderboard-title-and-icon-div {
+    background-color: var(--emerald);
+}
+#leaderboard-title-div {
+    /*background-color: var(--mint);*/
+    background-color: var(--emerald)
+}
+#user-rankings-div {
+    /*background-color: var(--emerald);*/
+    background-color: var(--mint);
+}
+#user-rankings-div .leaderboard-user-div h5 {
+    color: var(--coal)
+}
+#game-div {
+    border: 3px solid var(--royal-blue);
+    background-color: var(--old-snow);
+}
+footer {
+    background-color: var(--black-olive);
+}
+footer h5 {
+    color: var(--old-snow);
+}
