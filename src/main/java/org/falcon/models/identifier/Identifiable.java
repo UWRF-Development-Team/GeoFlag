@@ -1,7 +1,7 @@
 package org.falcon.models.identifier;
 
-import org.falcon.models.geo.Geographical;
+import org.falcon.models.guess.GeoLocatable;
 
 public interface Identifiable {
-    boolean matches(Geographical geographical);
+    boolean matches(GeoLocatable geoLocatable);
 }
