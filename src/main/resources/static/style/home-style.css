@@ -1,0 +1,52 @@
+:root {
+    --snow: #FCF7F8;
+    --old-snow: #ECECEC;
+    --periwinkle: #C3CFF7;
+    --royal-blue: #5E56F8;
+    --mint: #BCECC8;
+    --emerald: #54CC72;
+    --coal: #3C3C3C;
+    --jet-black: #313131;
+}
+
+#joke-div {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    background-color: var(--periwinkle);
+}
+#joke-title-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-color: var(--mint);*/
+    background-color: var(--royal-blue);
+}
+#joke-body-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-div {
+    width: 67%;
+    border: 3px solid var(--royal-blue);
+    border-radius: 50px;
+    background-color: var(--old-snow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 2vh 0;
+}
+#game-div iframe {
+    border-radius: 50px;
+    width: 100%;
+    height: 750px
+
+}
+#game-div img {
+    border-radius: 50px;
+
