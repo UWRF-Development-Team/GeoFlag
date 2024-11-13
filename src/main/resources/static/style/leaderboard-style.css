@@ -1,0 +1,74 @@
+:root {
+    --snow: #FCF7F8;
+    --old-snow: #ECECEC;
+    --periwinkle: #C3CFF7;
+    --royal-blue: #5E56F8;
+    --mint: #BCECC8;
+    --emerald: #54CC72;
+    --coal: #3C3C3C;
+    --jet-black: #313131;
+}
+
+#leaderboard-title-and-icon-div {
+    background-color: var(--emerald);
+}
+
+#leaderboard-title-div {
+    /*background-color: var(--mint);*/
+    background-color: var(--emerald)
+}
+
+#user-rankings-div {
+    /*background-color: var(--emerald);*/
+    background-color: var(--mint);
+}
+
+#user-rankings-div .leaderboard-user-div h5 {
+    color: var(--coal)
+}
+
+#leaderboard-and-joke-div {
+    max-width: 300px;
+    margin:  10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#leaderboard-div {
+    height: 350px;
+}
+
+#leaderboard-title-div h3 {
+}
+
+#user-rankings-div {
+    display: flex;
+    flex-direction: column;
+    /*background-color: var(--emerald);*/
+    background-color: var(--mint);
+}
+
+#user-rankings-div .leaderboard-user-div h5 {
+    color: var(--coal)
+}
+
+.leaderboard-user-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.leaderboard-user-div h5 {
+    margin: 7px;
+}
+
+#leaderboard-and-map-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.leaderboard-width {
+    max-width: 30%;
+}
