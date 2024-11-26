@@ -10,13 +10,18 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "crypto-browserify": "^3.12.1",
     "dotenv": "^16.4.5",
-    "google-maps": "^4.3.3"
+    "google-maps": "^4.3.3",
+    "os-browserify": "^0.3.0",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
     "babel-loader": "^9.2.1",
+    "dotenv-webpack": "^8.1.0",
     "webpack": "^5.96.1",
     "webpack-cli": "^5.1.4"
   }
