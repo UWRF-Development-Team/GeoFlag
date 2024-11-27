@@ -3,6 +3,7 @@ package org.falcon.entity.user;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import org.falcon.entity.leaderboard.LeaderboardEntry;
 
 @Getter
 @Setter
@@ -18,6 +19,9 @@ public class User {
     private Rank rank;
     @Column()
     private int score;
+    @JoinColumn(name = "leaderboard_entry_id")
+    @ManyToOne(cascade = CascadeType.ALL)
+    LeaderboardEntry leaderboardEntry;
     public User() {
 
     }
