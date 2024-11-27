@@ -17,14 +17,15 @@ public class Leaderboard {
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
+  @Column(name = "leaderboard_id")
   private Long id;
-  @OneToMany(mappedBy = "leaderboard", cascade = CascadeType.ALL)
-  private Map<Integer, LeaderboardEntry> leaderboard;
+  @OneToMany(mappedBy = "leaderboard", cascade = CascadeType.ALL, orphanRemoval = true)
+  private List<LeaderboardEntry> leaderboardEntries;
   public Leaderboard() {
-    this.leaderboard = new HashMap<>();
+    this.leaderboardEntries = new ArrayList<>();
   }
-  public Leaderboard(Map<Integer, LeaderboardEntry> leaderboard) {
-    this.leaderboard = leaderboard;
+  public Leaderboard(List<LeaderboardEntry> leaderboard) {
+    this.leaderboardEntries = leaderboard;
   }
   public void adduser (User user){
     // Before we insert, we need to check the rank with the other ranks
