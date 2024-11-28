@@ -14,6 +14,7 @@
     flex-direction: column;
     height: 350px;
     background-color: var(--periwinkle);
+    margin-top: 100px;
 }
 #joke-title-div {
     display: flex;
@@ -48,5 +49,12 @@
 
 }
 #game-div img {
-    border-radius: 50px;
-
+    border-radius: 30px;
+}
+#dark-mode-button-div {
+    background-color: var(--coal);
+    color: var(--old-snow);
+    border-radius: 30px;
+    text-align: center;
+    width: 33%;
+}

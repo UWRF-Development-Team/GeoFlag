@@ -7,46 +7,47 @@
     --emerald: #54CC72;
     --coal: #3C3C3C;
     --jet-black: #313131;
-    --light-gray: #888070;
-    --black-olive: #282828;
-    /*--black-olive: hsl(0, 0%, 20%);*/
+    --light-gray: #727271;
+    --black-olive: #1E1F1D;
+    --battleship-gray: #9F9F99
+
 }
-body {
+body.dark-mode {
     background-color: var(--light-gray);
 }
-nav {
+.dark-mode nav {
     background-color: var(--black-olive);
 }
-.nav-item h3 {
+.dark-mode .nav-item h3 {
     color: var(--old-snow);
 }
-#joke-div {
+.dark-mode #joke-div {
     background-color: var(--periwinkle);
 }
-#joke-title-div {
+.dark-mode #joke-title-div {
     background-color: var(--royal-blue);
 }
-#leaderboard-title-and-icon-div {
+.dark-mode #leaderboard-title-and-icon-div {
     background-color: var(--emerald);
 }
-#leaderboard-title-div {
+.dark-mode #leaderboard-title-div {
     /*background-color: var(--mint);*/
     background-color: var(--emerald)
 }
-#user-rankings-div {
+.dark-mode #user-rankings-div {
     /*background-color: var(--emerald);*/
     background-color: var(--mint);
 }
-#user-rankings-div .leaderboard-user-div h5 {
+.dark-mode #user-rankings-div .leaderboard-user-div h5 {
     color: var(--coal)
 }
-#game-div {
+.dark-mode #game-div {
     border: 3px solid var(--royal-blue);
-    background-color: var(--old-snow);
+    background-color: var(--battleship-gray);
 }
-footer {
+.dark-mode footer {
     background-color: var(--black-olive);
 }
-footer h5 {
+.dark-mode footer h5 {
     color: var(--old-snow);
 }
