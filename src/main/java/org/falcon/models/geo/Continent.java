@@ -5,5 +5,5 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Continent extends Geographical {
+public class Continent {
 }
