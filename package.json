@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.4.0",
     "bootstrap": "^5.3.3",
     "crypto-browserify": "^3.12.1",
     "dotenv": "^16.4.5",
