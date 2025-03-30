@@ -3,17 +3,17 @@ package org.falcon.models.geo;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @Getter
 @Setter
-public class TimeZones extends Geographical {
-    protected Area area;
-    protected String abbrev;
+public class TimeZones {
+    protected List<TimeZone> timeZones;
     public TimeZones() {
-        this.area = new Area();
-        this.abbrev = "";
+        this.timeZones = new ArrayList<>();
     }
-    public TimeZones(Area area, String abbrev) {
-        this.area = area;
-        this.abbrev = abbrev;
+    public TimeZones(List<TimeZone> timeZones) {
+        this.timeZones = timeZones;
     }
 }
